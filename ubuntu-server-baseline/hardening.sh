@@ -1,9 +1,4 @@
 
----
-
-# 🔧 `hardening.sh` — Script de Automação
-
-```bash
 #!/bin/bash
 #
 # Script: hardening.sh
