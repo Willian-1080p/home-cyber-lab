@@ -6,7 +6,7 @@ Bem-vindo ao meu laboratório pessoal de segurança da informação. Aqui compar
 
 - `wifi-auditoria/` – Testes com redes Wi-Fi (uso ético e simulado)
 - `firewall-config/` – Regras e testes com iptables/ufw
-- `hardening-linux/` – Scripts e dicas para endurecimento de sistemas
+- `hardening-linux/` – Scripts e dicas para melhoria de segurança de sistemas
 - `pentest-tools/` – Ferramentas customizadas ou scripts de apoio
 - `monitoramento/` – Projetos com IDS, scripts de logs e alertas
 
