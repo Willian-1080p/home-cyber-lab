@@ -1,0 +1,10 @@
+- name: IR | Brute Force SSH Response
+  hosts: Host
+  become: true
+
+  vars:
+    attacker_ip: ""
+
+  roles:
+    - block-ip
+    - collect-logs
