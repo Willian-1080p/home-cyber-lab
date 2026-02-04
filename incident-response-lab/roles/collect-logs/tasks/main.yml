@@ -1,1 +1,6 @@
+- name: Coletar logs de autenticação
+  fetch:
+    src: /var/log/auth.log
+    dest: ./evidencias/{{ inventory_hostname }}/
+    flat: yes
 
