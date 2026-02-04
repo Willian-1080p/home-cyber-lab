@@ -1,1 +1,11 @@
+- name: Bloquear todo tráfego de entrada
+  ufw:
+    state: enabled
+    policy: deny
+    direction: incoming
+
+- name: Bloquear todo tráfego de saída
+  ufw:
+    rule: deny
+    direction: outgoing
 
