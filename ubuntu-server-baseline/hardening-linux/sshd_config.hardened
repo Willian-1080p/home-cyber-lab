@@ -1,1 +1,7 @@
+Protocol 2
+PermitRootLogin no
+PasswordAuthentication no
+X11Forwarding no
+AllowTcpForwarding no
+MaxAuthTries 3
 
