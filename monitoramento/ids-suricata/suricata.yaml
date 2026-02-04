@@ -1,1 +1,4 @@
+vars:
+  address-groups:
+    HOME_NET: "[192.168.0.0/16]"
 
