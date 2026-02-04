@@ -1,1 +1,23 @@
+incident:
+  id: IR-XXXX
+  title: ""
+  severity: ""
+  status: open
+
+timeline:
+  detected_at: ""
+  contained_at: ""
+  resolved_at: ""
+
+affected_assets:
+  - hostname: ""
+    ip: ""
+
+root_cause: ""
+
+actions_taken: []
+
+lessons_learned: []
+
+approved_by: ""
 
