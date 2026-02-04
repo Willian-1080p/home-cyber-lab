@@ -1,1 +1,33 @@
+playbook:
+  name: "Brute Force SSH Detection"
+  id: IR-SSH-001
+  severity: high
+
+trigger:
+  source: logs
+  event_id:
+    - "ssh_failed_login"
+  threshold:
+    attempts: 5
+    timeframe_minutes: 10
+
+conditions:
+  - type: same_source_ip
+  - type: repeated_auth_failures
+
+actions:
+  - name: collect_logs
+    target: /var/log/auth.log
+
+  - name: block_ip
+    method: firewall
+    duration_minutes: 60
+
+  - name: notify
+    channel: soc
+    message: "Possível brute-force SSH detectado"
+
+post_incident:
+  - review_firewall_rules
+  - update_iocs
 
