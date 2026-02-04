@@ -1,1 +1,5 @@
+- name: Bloquear IP atacante via UFW
+  ufw:
+    rule: deny
+    from_ip: "{{ attacker_ip }}"
 
