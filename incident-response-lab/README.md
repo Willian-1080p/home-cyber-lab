@@ -1,24 +1,28 @@
-# 🚑 Incident Response Lab – WillSecLab
+# 🚑 Incident Response Automation with Ansible – WillSecLab
 
 ## 📌 Descrição
-Este projeto simula **resposta a incidentes de segurança**, seguindo boas práticas de mercado e frameworks de IR.
+Este projeto implementa **resposta a incidentes automatizada utilizando Ansible**, focada em cenários reais como brute-force e detecção de malware.
 
-O foco é desenvolver **processo, documentação e tomada de decisão**, não apenas ferramentas.
+A automação é executada **somente após detecção**, respeitando boas práticas de segurança e controle operacional.
 
 ---
 
 ## 🎯 Objetivos
-- Entender o ciclo de resposta a incidentes
-- Criar playbooks reutilizáveis
-- Documentar incidentes corretamente
-- Desenvolver visão de SOC / Blue Team
+- Automatizar resposta a incidentes
+- Reduzir tempo de contenção (MTTR)
+- Padronizar ações de segurança
+- Demonstrar IR como código
 
 ---
 
-## 🧠 Ciclo de Resposta
-1. Identificação
-2. Contenção
-3. Erradicação
-4. Recuperação
-5. Lições aprendidas
+## 🧠 Conceitos Aplicados
+- Incident Response
+- Blue Team
+- SOAR (conceitual)
+- Infrastructure as Code
+- Least Privilege
 
+---
+
+## ⚠️ Aviso
+Execute apenas em ambientes autorizados.
