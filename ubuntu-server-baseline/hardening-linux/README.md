@@ -47,21 +47,6 @@ Este projeto faz parte do laboratório **WillSecLab**, voltado ao aprendizado pr
 
 ---
 
-## 📁 Estrutura do Projeto
-
----
-
-ubuntu-server-advanced/
-├── hardening.sh
-├── audit-only.sh
-├── sshd_config.hardened
-├── sysctl.conf
-├── checklist.md
-├── SECURITY.md
-└── README.md
-
----
-
 ## ⚙️ Modos de Execução
 
 ### 🔍 Auditoria (recomendado)
