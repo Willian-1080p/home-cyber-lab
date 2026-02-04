@@ -1,1 +1,2 @@
+alert tcp any any -> any 22 (msg:"Possível brute force SSH"; sid:1000001;)
 
